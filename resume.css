@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-header {
+/*header {
   border-width: 1px;
   border-color: black;
   background-color: #ABA3A1;
@@ -9,7 +9,7 @@ header {
   /*margin-left: 100px
   margin-right: 100px*/
   justify-content: center;
-}
+}*/
 
 div {
   border: 3px solid #949599;
@@ -30,11 +30,10 @@ footer {
 
 body {
   display: inline-table;
-  justify-content: center;
 }
 
 html {
   border-width: medium;
   margin: 5%;
-  text-align: center;
+  /*text-align: center;*/
 }
