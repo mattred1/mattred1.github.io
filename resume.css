@@ -4,8 +4,8 @@ header {
   /*border-width: 10px;
   border-color: black;*/
   background-color: #ABA3A1;
-  font-size: 3em;
-  font-family: 'verdana' sans-serif;  text-align: center;
+  font-size: 4em;
+  font-family: 'verdana';  text-align: center;
   /*margin-left: 100px
   margin-right: 100px
   justify-content: center;
@@ -29,9 +29,12 @@ footer {
 }
 
 body {
-  display: inline-table;
-  background-image: image("images/writersdesk.jpg");
+  background-image: url("images/writersdesk.jpg");
+   background-size: 100vw 1.5em, 32px 32px;
+   background-repeat: repeat, repeat-y;
+   background-position: 0 0, 64px 0;
 }
+/*having trouble linking image to desk for body*/
 
 html {
   border-width: medium;
