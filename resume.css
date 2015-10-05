@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-/*header {
-  border-width: 1px;
-  border-color: black;
+header {
+  /*border-width: 10px;
+  border-color: black;*/
   background-color: #ABA3A1;
   font-size: 3em;
   font-family: 'verdana' sans-serif;  text-align: center;
   /*margin-left: 100px
-  margin-right: 100px*/
+  margin-right: 100px
   justify-content: center;
 }*/
 
@@ -30,10 +30,14 @@ footer {
 
 body {
   display: inline-table;
+  background-image: image("images/writersdesk.jpg");
 }
 
 html {
   border-width: medium;
   margin: 5%;
+  line-height: 15px;
+
+
   /*text-align: center;*/
 }
