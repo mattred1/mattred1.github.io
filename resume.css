@@ -3,7 +3,7 @@
 header {
   border-width: 100px;
   border-color: black;
-  background-color: #ABA3A1;
+  /*background-color: #ABA3A1;*/
   font-size: 4em;
   font-family: 'verdana';  text-align: center;
   /*margin-left: 100px
@@ -11,8 +11,12 @@ header {
 }
 
 .subsubheader {
-  font-size: 50px;
+  font-size: 15px;
   font-weight: bolder;
+}
+
+.center {
+
 }
 
 
@@ -25,17 +29,18 @@ footer {
 }
 
 body {
-  /*background-image: url(images/writersdesk.jpg);*/
-   background-size: 100vw 1.5em, 32px 32px;
+  border-width: thin;
+   background-size: 1em, 70px 70px;
    background-repeat: repeat, repeat-y;
-   background-position: 0 0, 64px 0;
+   background-position: 0 0, 0 0;
    line-height: 15px;
+   font-family: 'verdana' serif;
 }
 /*having trouble linking image to desk for body*/
 
 html {
-  border-width: medium;
   margin: 5%;
+  background-image: url(images/writersdesk.jpg);
 
 
 
