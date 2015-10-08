@@ -5,7 +5,7 @@ html {
   background-position:
   background-attachment: fixed;
   text-align: center;
-
+  padding: 5px;
 }
 
 header {
@@ -101,12 +101,14 @@ ul > li {
 /*-------------------------------------------------------------------------------------------------------------*/
 
 .col-1 {
-  width: 50%;
+  width: 48%;
   float:left;
+  padding: 1%;
 }
 .col-2 {
-  width: 50%;
+  width: 48%;
   float: right;
+  padding: 1%;
 }
 
 .grid:after {
@@ -116,5 +118,5 @@ ul > li {
 }
 
 .grid:before {
-  
+
 }
