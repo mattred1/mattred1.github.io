@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
+<!--"ruby -run -ehttpd . p8000" then control-C to shut down-->
+
 <head>
     <title>My Resume</title>
     <meta charset="utf-8">
@@ -8,23 +10,10 @@
   <header>Matthew Redinger</header>
   <br>
   <footer>5947-A Western Run Dr. • Baltimore, MD 21209 • 443-783-7588 • <a href="mailto:mattred1@gmail.com?subject=Github">mattred1@gmail.com</a></footer>
-  <div class="col-2-3">
    <h2>Summary:</h2>
-     <p class="bigcenterbox">Ambitious human services professional excelling in applied behavioral analysis and creative problem solving. Adept in team leadership and managing, motivating, and training staff. Professional attitude with research experience and motivated to learn new, relevant, skills. Offering a strong motivation to excel.</p>
+     <p id="summarybox">Ambitious human services professional excelling in applied behavioral analysis and creative problem solving. Adept in team leadership and managing, motivating, and training staff. Professional attitude with research experience and motivated to learn new, relevant, skills. Offering a strong motivation to excel.</p>
 <hr>
-    <h2>Education:</h2>
-   <!-- <img id="dog" src="images/retrievers.jpg" alt="UMBC" style="width:250px;height:250px;"> -->
-    <a href="https://www.umbc.edu" class="subsubheader">University of Maryland, Baltimore County</a>
-    <div id="smallcenterbox">
-      <p>An Honors University in Maryland</p>
-      <ul>
-        <li>Bachelor of Arts in Psychology</li>
-        <li>Concentration in Human Services</li>
-        <li>Cumulative Grade Point Average: 3.25</li>
-        <li>Member of Psychology Counsel of Majors</li>
-      </ul>
-    </div>
-<hr>
+<div class="col-1">
   <h2>Work Experience:</h2>
     <a href="http://www.humanim.com" class="subsubheader">Humanim Inc.</a>
     <div class="centerbox">
@@ -55,9 +44,22 @@
       <li>Responsible for handling up to $1,200 in ticket sales and other services</li>
     </ul>
   </div>
-<hr>
+  </div>
+  <div class="col-2">
+  <h2>Education:</h2>
+ <!-- <img id="dog" src="images/retrievers.jpg" alt="UMBC" style="width:250px;height:250px;"> -->
+  <a href="https://www.umbc.edu" class="subsubheader">University of Maryland, Baltimore County</a>
+  <div id="smallcenterbox">
+    <p>An Honors University in Maryland</p>
+    <ul>
+      <li>Bachelor of Arts in Psychology</li>
+      <li>Concentration in Human Services</li>
+      <li>Cumulative Grade Point Average: 3.25</li>
+      <li>Member of Psychology Counsel of Majors</li>
+    </ul>
+  </div>
   <h2>Skills:</h2>
-    <div  class="bigcenterbox">
+    <div  class="centerbox">
     <ul>
       <li>Excellent skills in applied behavioral analysis, creative problem solving and clear and concise writing, providing feedback, and management of data.</li>
       <li>Proficient in Microsoft Office, Google Documents, OneDrive, and SPSS</li>
@@ -65,9 +67,6 @@
       <li>Mental Health First Aid Certificate (2012)</li>
     </ul>
     </div>
-  </div>
-  <div class="col-1-3">
-  <!-- I want to move summary above, then float work experience left ; float education and skills right-->
   </div>
 </body>
 </html>
