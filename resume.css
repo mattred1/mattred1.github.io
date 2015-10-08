@@ -40,6 +40,10 @@ ul > li {
   line-height: 1.4em;
 }
 
+.grid {
+
+}
+
 .subsubheader {
   font-size: 15px;
   font-weight: bolder;
@@ -105,8 +109,12 @@ ul > li {
   float: right;
 }
 
-/*.grid:after {
+.grid:after {
   content: "";
   display: table;
   clear: both;
-}*/
+}
+
+.grid:before {
+  
+}
