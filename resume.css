@@ -113,9 +113,9 @@ a:hover{
   border-width: medium;
   }
 
-#emailme {
+#contactme {
+  font-family: Righteous;
   font-size: 2em;
-  font-family: andale mono, cursive;
   font-variant:small-caps;
 }
 
