@@ -17,7 +17,7 @@ header {
   margin-left:50px;
   /*background-color: #ABA3A1;*/
   font-size: 3.6em;
-  font-family: 'Graduate';  text-align: center;
+  font-family: 'Graduate'; text-align: center;
   /*margin-left: 100px
   margin-right: 100px*/
 }
@@ -45,6 +45,21 @@ body {
 ul > li {
   list-style: circle;
   line-height: 1.4em;
+}
+
+a:link {
+  color: #00EBFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #CA0000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E78601;
+  text-decoration: none;
 }
 
 .grid {
