@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang=en>
-<!--"ruby -run -ehttpd . p8000" then control-C to shut down-->
+<!--"ruby -run -ehttpd . -p8000" then control-C to shut down-->
 
 <head>
     <title>My Resume</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="normalize.css">
+    <!--Order is important here - normalize stylesheet first because it will get rid of all the things that the web fills in, then I put mine so it sets them right again-->
     <link rel="stylesheet" href="resume.css">
     <script src="resume.js"></script>
 </head>
@@ -69,7 +71,7 @@
     </ul>
   </div>
   <h2>Skills:</h2>
-    <div  class="centerbox">
+    <div class="centerbox">
     <ul>
       <li>Excellent skills in applied behavioral analysis, creative problem solving and clear and concise writing, providing feedback, and management of data.</li>
       <li>Proficient in Microsoft Office, Google Documents, OneDrive, and SPSS</li>
@@ -81,7 +83,7 @@
 </div>
 <div class="grid:after">
   <!--New text will go here-->
-<a id="contactme" href="contact.html">Contact me</a>
+<a id="contactme" href="contact.html">Contact Me</a>
 
 </div>
 </body>
