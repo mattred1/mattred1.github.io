@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
-@import url(https://fonts.googleapis.com/css?family=Graduate);
 
 html {
   background-image: url(images/desktop.jpg);
@@ -7,7 +6,7 @@ html {
   background-attachment: fixed;
   text-align: center;
   padding: 5px;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 header {
@@ -17,7 +16,7 @@ header {
   margin-left:50px;
   /*background-color: #ABA3A1;*/
   font-size: 3.6em;
-  font-family: 'Graduate'; text-align: center;
+  font-family: 'righteous'; text-align: center;
   /*margin-left: 100px
   margin-right: 100px*/
 }
@@ -46,8 +45,12 @@ svg {
   background-color: #3B5998;
   resize:both;
   display: block;
-  height:"2"; width:"2"; margin: 0; padding: 0;
-  border: none; overflow: hidden;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+  padding: auto;
+  border: none;
+
 }
 
 ul > li {
@@ -56,8 +59,9 @@ ul > li {
 }
 
 a:link {
-  color: #00EBFF;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+  border-bottom: 1px solid #000000;
 }
 
 a:visited {
