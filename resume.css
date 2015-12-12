@@ -42,14 +42,14 @@ body {
 }
 
 svg {
-  background-color: #3B5998;
   resize:both;
-  display: block;
+  /*display: block;*/
   height: 25px;
   width: 25px;
   margin: 10px;
   padding: auto;
   border: none;
+  justify-content: center;
 
 }
 
@@ -92,7 +92,7 @@ a:hover{
   margin-left: auto;
   text-align: left;
   border-color: black;
-  border-style: double;
+  border-style: solid;
   border-width: medium;
 }
 
@@ -115,10 +115,9 @@ input {
   margin-left: auto;
   text-align: left;
   border-color: black;
-  border-style: double;
+  border-style: solid;
   border-width: medium;
 }
-
 
 #smallcenterbox {
   width: 65%;
@@ -130,7 +129,7 @@ input {
   margin-left: auto;
   text-align: left;
   border-color: black;
-  border-style: double;
+  border-style: solid;
   border-width: medium;
   }
 
