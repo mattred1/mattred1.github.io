@@ -60,7 +60,6 @@ svg {
   padding: auto;
   border: none;
   justify-content: center;
-
 }
 
 ul > li {
@@ -71,22 +70,23 @@ ul > li {
 a:link {
   color: #000000;
   text-decoration: underline;
-  border-bottom: 1px solid #000000;
+  /*border-bottom: 1px solid #000000;*/
 }
 
 a:visited {
-  color: #CA0000;
-  text-decoration: none;
+  color: #000000;
+  /*text-decoration: none;*/
 }
 
 a:hover{
-  color: #E78601;
-  text-decoration: none;
+  color: #0004FF;
+  /*text-decoration: none;*/
 }
 
 .subsubheader {
   font-size: 15px;
   font-weight: bolder;
+  margin-bottom: 2%;
 }
 
 .centerbox {
@@ -126,7 +126,7 @@ input {
   border-width: medium;
 }*/
 
-#smallcenterbox {
+.smallcenterbox {
   width: 65%;
   padding: 1%;
   border: 5px;
@@ -145,6 +145,11 @@ input {
   font-size: 2em;
   font-variant:small-caps;
 }
+
+#ulindent {
+  margin-left: -25px;
+}
+
 
 /*-------------------------------------------------------------------------------------------------------------*/
 
