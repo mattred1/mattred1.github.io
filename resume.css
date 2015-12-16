@@ -10,7 +10,7 @@
 }*/
 
 html {
-  background-image: url(images/desktop.jpg);
+  /*background-image: url(images/desktop.jpg);*/
   background-size: 100%;
   background-attachment: fixed;
   text-align: center;
@@ -24,7 +24,7 @@ header {
   margin-bottom:0px;
   margin-left:50px;
   /*background-color: #ABA3A1;*/
-  font-size: 3.6em;
+  font-size: 4em;
   font-family: 'Squada One', cursive;
  text-align: center;
   /*margin-left: 100px
@@ -52,7 +52,7 @@ body {
 }
 
 svg {
-  resize:both;
+  resize: both;
   /*display: block;*/
   height: 25px;
   width: 25px;
@@ -84,9 +84,6 @@ a:hover{
   text-decoration: none;
 }
 
-.grid {
-}
-
 .subsubheader {
   font-size: 15px;
   font-weight: bolder;
@@ -98,7 +95,7 @@ a:hover{
   border: 5px;
   margin-top:auto;
   margin-right:auto;
-  margin-bottom:auto;
+  margin-bottom: 2%;
   margin-left: auto;
   text-align: left;
   border-color: black;
@@ -115,7 +112,7 @@ input {
   font-size: 120%;
 }
 
-#summarybox {
+/*#summarybox {
   width: 50%;
   padding: 1%;
   border: 5px;
@@ -127,7 +124,7 @@ input {
   border-color: black;
   border-style: solid;
   border-width: medium;
-}
+}*/
 
 #smallcenterbox {
   width: 65%;
