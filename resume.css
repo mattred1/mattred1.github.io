@@ -46,9 +46,9 @@ font-size: 2em;
 
 body {
   border-width: thin;
-  line-height: 14px;
+  line-height: 13px;
   font-family: 'verdana' serif;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 svg {
@@ -86,7 +86,7 @@ a:hover{
 .subsubheader {
   font-size: 15px;
   font-weight: bolder;
-  margin-bottom: 2%;
+line-height: 30px;
 }
 
 .centerbox {
@@ -132,7 +132,7 @@ input {
   border: 5px;
   margin-top:auto;
   margin-right:auto;
-  margin-bottom:auto;
+  margin-bottom: 2%;
   margin-left: auto;
   text-align: left;
   border-color: black;
