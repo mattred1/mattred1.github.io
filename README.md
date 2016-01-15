@@ -5,4 +5,3 @@ To do:
   3. Switch column 1 and 2 places
   4. Find better background
   5. Fix up for mobile (move .col-2 down)
-  5.
