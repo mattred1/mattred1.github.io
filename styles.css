@@ -1,0 +1,104 @@
+/* Grid display */
+
+.resume {
+  grid-gap: 5px;
+  /* For testing */
+  width  : 50mm;
+  /* For testing */
+  height: 70.5mm;
+  /* For testing */
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "photo"
+    "name"
+    "about"
+    "work"
+    "education"
+    "skills"
+    "references"
+    "social"
+
+}
+
+.grid-area {
+    padding: 1em 1em 1em 1em;
+    border : 1px black solid;
+}
+
+
+.photo {
+  grid-area: photo;
+}
+.name {
+  grid-area : name;
+}
+.about {
+  grid-area: about;
+}
+.work {
+  grid-area: work;
+}
+.education {
+  grid-area: education;
+}
+.skills {
+  grid-area: skills;
+}
+.references {
+  grid-area: references;
+}
+.social {
+  grid-area: social;
+}
+
+/* End grid display */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scaling up */
+
+@media (min-width: 1200px) {
+  .resume {
+    grid-template-areas:
+      "name photo"
+      "work about"
+      "work education"
+      "community skills";
+  }
+}
+
+
+
+@media (min-width: 900px) {
+  .resume {
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas:
+        "name image"
+        "about about"
+        "work work"
+        "education education"
+        "skills skills"
+        "community community"
+        "references references"
+  }
+}
