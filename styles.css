@@ -10,7 +10,7 @@
 
   margin: 1rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "photo"
@@ -27,12 +27,13 @@
 .grid-area {
     padding: 1em 1em 1em 1em;
     border : 1px black solid;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 
 .photo {
   grid-area: photo;
+  height: auto;
 }
 .name {
   grid-area : name;
@@ -107,11 +108,16 @@ img {
 @media (min-width: 1200px) {
   .resume {
     width  : 60%;
-    grid-template-areas:
-      "name photo"
-      "about about"
-      "work education"
-      "community skills";
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas:
+        "name photo"
+        "about about"
+        "work work"
+        "education education"
+        "skills skills"
+        "community community"
+        "references references"
+        "social social"
   }
 }
 
