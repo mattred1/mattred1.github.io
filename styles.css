@@ -5,13 +5,13 @@
   /* For testing */
   width  : 100%;
   /* For testing */
-  /* height: 125mm; */
+  /* height: 50%; */
   /* For testing */
 
   margin: 1rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
     "photo"
     "name"
@@ -27,13 +27,12 @@
 .grid-area {
     padding: 1em 1em 1em 1em;
     border : 1px black solid;
-    font-size: 1.6rem;
+    font-size: 1.6em;
 }
 
 
 .photo {
   grid-area: photo;
-  height: auto;
 }
 .name {
   grid-area : name;
@@ -72,7 +71,7 @@ main {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -107,8 +106,9 @@ img {
 
 @media (min-width: 1200px) {
   .resume {
-    width  : 60%;
+    width: 60%;
       grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
       grid-template-areas:
         "name photo"
         "about about"
@@ -125,8 +125,9 @@ img {
 
 @media (min-width: 900px) {
   .resume {
-    width  : 80%;
+      width: 80%;
       grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto;
       grid-template-areas:
         "name photo"
         "about about"
