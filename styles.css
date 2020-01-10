@@ -140,6 +140,11 @@ p, ul, ol, li {
         text-align: left;
 }
 
+    img {
+        max-width: 75%;
+        height: auto;
+    }
+
 
 }
 
@@ -161,5 +166,10 @@ p, ul, ol, li {
     h2 {
         text-align: left;
 }
+
+    img {
+        max-width: 75%;
+        height: auto;
+    }
 
 }
