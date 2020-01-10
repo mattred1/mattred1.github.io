@@ -84,7 +84,7 @@ h2 {
     font-size: 2.5em;
 }
 
-h3 {
+h3, h4 {
 font-family: Trebuchet, Tahoma, Arial, sans-serif;
 }
 
@@ -130,11 +130,9 @@ p, ul, ol, li {
       grid-template-rows: auto;
       grid-template-areas:
         "about photo"
-        "work work"
-        "work work"
+        "work skills"
+        "work references"
         "education education"
-        "skills skills"
-        "references references"
         "social social"
   }
 
@@ -154,10 +152,9 @@ p, ul, ol, li {
       grid-template-rows: auto;
       grid-template-areas:
         "about photo"
-        "work work"
+        "work skills"
+        "work references"
         "education education"
-        "skills skills"
-        "references references"
         "social social"
   }
 
